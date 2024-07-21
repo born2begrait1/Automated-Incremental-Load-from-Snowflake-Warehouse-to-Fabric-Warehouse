@@ -1,13 +1,15 @@
-CREATE TABLE sales
-(
-    OrderDate DATE,
-    OrderYear INT,
-    Products VARCHAR(50),
-    PaymentType VARCHAR(50),
-    Units INT,
-    Price INT,
-    SalesAmount DECIMAL(18, 2)
-);
+Snowflake Details
+
+CREATE WAREHOUSE Fabric_Warehouse;
+
+CREATE DATABASE Fabric_Database;
+
+USE Fabric_Database;
+
+CREATE SCHEMA transaction;
+
+USE schema transaction;
+
 ......................................................
 DataPipeline Lookup activity
 
