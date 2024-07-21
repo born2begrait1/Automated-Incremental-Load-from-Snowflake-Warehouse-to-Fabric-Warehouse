@@ -1,0 +1,1 @@
+# Automated-Incremental-Load-from-Snowflake-Warehouse-to-Fabric-Warehouse
