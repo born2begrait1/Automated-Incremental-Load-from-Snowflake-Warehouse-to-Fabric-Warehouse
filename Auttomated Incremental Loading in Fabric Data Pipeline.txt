@@ -25,7 +25,7 @@ SELECT * FROM sales;
 ......................................................
 DataPipeline Lookup activity
 
-SELECT * FROM sales WHERE OrderDate > '@{activity(LatestReports).output.firstRow.SalesDate'}'
+SELECT * FROM sales WHERE OrderDate > '@{activity(LatestReports).output.firstRow.SalesDate}'
 
 ........................................................
 Sales 2015 Records
