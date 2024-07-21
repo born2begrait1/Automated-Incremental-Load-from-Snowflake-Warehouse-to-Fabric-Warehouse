@@ -10,18 +10,18 @@ CREATE SCHEMA transaction;
 
 USE schema transaction;
 
-
 CREATE TABLE sales
 (
-    OrderDate DATE,
-    OrderYear INT,
-    Products VARCHAR(50),
-    PaymentType VARCHAR(50),
-    Units INT,
-    Price INT,
-    SalesAmount DECIMAL(18, 2)
+    ORDERDATE DATE,
+    ORDERYEAR INT,
+    PRODUCTS VARCHAR(50),
+    PAYMENTTYPE VARCHAR(50),
+    UNITS INT,
+    PRICE INT,
+    SALESAMOUNT DECIMAL(18, 2)
 );
 
+SELECT * FROM sales;
 ......................................................
 DataPipeline Lookup activity
 
