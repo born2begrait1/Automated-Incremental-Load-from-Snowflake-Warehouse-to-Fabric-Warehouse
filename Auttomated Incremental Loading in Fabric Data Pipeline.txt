@@ -10,7 +10,7 @@ CREATE SCHEMA transaction;
 
 USE schema transaction;
 
-CREATE TABLE sales
+CREATE TABLE transaction.sales
 (
     ORDERDATE DATE,
     ORDERYEAR INT,
@@ -21,7 +21,7 @@ CREATE TABLE sales
     SALESAMOUNT DECIMAL(18, 2)
 );
 
-SELECT * FROM sales;
+SELECT * FROM transaction.sales;
 ......................................................
 DataPipeline Lookup activity
 
